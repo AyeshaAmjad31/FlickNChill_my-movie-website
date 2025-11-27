@@ -17,6 +17,6 @@ This project includes a responsive layout and interactive JavaScript features.A 
 - JavaScript
 
 # Group Members
-Ayesha Amjad 25F-0559
-Amtul Sabooh Basit 25F-0787
-Mahnoor Nadeem 25F-0714
+- Ayesha Amjad 25F-0559
+- Amtul Sabooh Basit 25F-0787
+- Mahnoor Nadeem 25F-0714
