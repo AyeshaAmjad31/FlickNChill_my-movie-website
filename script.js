@@ -12,6 +12,12 @@ const movieData = [
         thumbnail: "rio.jpg", 
         genres: ["Animation", "Kids", "Adventure"] 
     },
+    {
+        title: "K.G.F. CHAPTER 1",
+        url:"https://lok-lok.cc/spa/videoPlayPage/movies/k-g-f-chapter-1-AoFyfdy6BZ?id=833863936263999064&type=/movie/detail&lang=en",
+        thumbnail: "kgf1.jpg",
+        genres: ["action, crime, drama"]
+    },
     { 
         title: "TRON", 
         url: "https://lok-lok.cc/spa/videoPlayPage/movies/tron-ares-hindi-uvqfpFdqmL8?id=7355533815261331776&type=/movie/detail&lang=en", 
@@ -184,6 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // If splash is skipped
     if (!appContainer.classList.contains('hidden')) renderMovies(movieData);
 });
+
 
 
 
