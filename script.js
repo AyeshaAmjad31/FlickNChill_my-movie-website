@@ -45,19 +45,19 @@ const movieData = [
      {
         title: "3 IDIOTS",
         url:"https://lok-lok.cc/spa/videoPlayPage/movies/3-idiots-mHchEloo3P5?id=4887629165308043272&type=/movie/detail&lang=en",
-        thumbnail: "3idiots",
+        thumbnail: "3idiots.jpg",
         genres: ["comedy, drama"]
     },
     {
         title: "K.G.F. CHAPTER 1",
         url:"https://lok-lok.cc/spa/videoPlayPage/movies/k-g-f-chapter-1-AoFyfdy6BZ?id=833863936263999064&type=/movie/detail&lang=en",
-        thumbnail: "K.G.F.1",
+        thumbnail: "kgf1",
         genres: ["action, crime, drama"]
     },
     {
         title: "THE SHADOW'S EDGE",
         url:"https://lok-lok.cc/spa/videoPlayPage/movies/the-shadows-edge-YsfCvPo4Xo6?id=5373583835403911072&type=/movie/detail&lang=en",
-        thumbnail: "The Shadow's Edge",
+        thumbnail: "The Shadows Edge.jpg",
         genres: ["Action, Crime, drama"]
     },
     { 
@@ -190,3 +190,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // If splash is skipped
     if (!appContainer.classList.contains('hidden')) renderMovies(movieData);
 });
+
