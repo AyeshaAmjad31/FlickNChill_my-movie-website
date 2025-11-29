@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FlickNChill | Home</title>
+<!-- Link the external CSS file -->
+<link rel="stylesheet" href="style.css">
+<!-- Load Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<!-- Feature 1: Splash Screen (Initial Logo View) -->
+<div id="splash-screen">
+<div class="logo-large">
+<!-- Popcorn emoji used in place of logo.jpg for consistent look -->
+<span class="logo-popcorn-splash">🍿</span>
+<h1 class="logo-text-large">FlickNChill</h1>
+<p class="subtitle">YOUR MOVIE NIGHT HUB</p>
+<p class="click-prompt">Click to enter</p>
+</div>
+</div>
+<!-- Main Application Container (Initially hidden) -->
+<div id="app-container" class="hidden">
+<!-- Header and Navigation Bar -->
+<header>
+<div class="navbar-container">
+<!-- Logo/Brand Section - Clickable to return home/reset filters -->
+<div class="logo" id="main-logo-link">
+<span class="logo-popcorn">🍿</span>
+<span class="logo-text">FlickNChill</span>
+</div>
+<!-- Categories Navigation (For Filtering) -->
+<nav class="categories">
+<a href="#" data-genre="Action">Action</a>
+<a href="#" data-genre="Adventure">Adventure</a>
+<a href="#" data-genre="Animation">Animation</a>
+<a href="#" data-genre="Drama">Drama</a>
+<a href="#" data-genre="Fantasy">Fantasy</a>
+<a href="#" data-genre="Kids">Kids</a>
+<!-- 'All' button is set as active by default -->
+<a href="#" data-genre="All" id="show-all-btn" class="active-genre">All</a>
+</nav>
+<!-- Search Bar Section -->
+<div class="search-box">
+<input type="search" id="search-input" placeholder="Search movies...">
+<button class="search-btn" id="search-btn">
+<i class="fas fa-search"></i>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content Area -->
+<main>
+<h1 class="section-title">Featured Movies</h1>
+<!-- Message for 'Movie Not Found' (Hidden by default) -->
+<div id="not-found-message" class="not-found hidden">
+<h2>Movie Not Found</h2>
+<p>Sorry, there are no movies matching your search criteria. Try a different title or check the genres above.</p>
+</div>
+<!-- Movie Grid Container - Content populated by JavaScript -->
+<div class="movie-grid" id="movie-grid">
+<!-- Movie cards will be inserted here by script.js -->
+</div>
+</main>
+</div>
+<!-- Link the external JavaScript file for interactivity -->
+<script src="script.js"></script>
+</body>
+</html>
