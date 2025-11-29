@@ -51,7 +51,7 @@ const movieData = [
     {
         title: "K.G.F. CHAPTER 1",
         url:"https://lok-lok.cc/spa/videoPlayPage/movies/k-g-f-chapter-1-AoFyfdy6BZ?id=833863936263999064&type=/movie/detail&lang=en",
-        thumbnail: "kgf1",
+        thumbnail: "kgf1.jpg",
         genres: ["action, crime, drama"]
     },
     {
@@ -190,4 +190,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // If splash is skipped
     if (!appContainer.classList.contains('hidden')) renderMovies(movieData);
 });
+
 
